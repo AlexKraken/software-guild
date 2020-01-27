@@ -1,0 +1,111 @@
+/* 
+Name: Alex Kraken Hawthorne
+Date Created: Jan 17, 2020
+Most recent revision: Jan 25, 2020
+*/
+
+:root {
+    --primary-color: #fcf8ef;
+    --secondary-color: #1a7749;
+    --secondary-tint: #85ba6a;
+    --secondary-shade: #0b2e2f;
+    --dark: #01121c;
+}
+
+body {
+    margin-bottom: 120px;
+    background-color: var(--secondary-tint);
+    background-image: url('../images/leaf-background.jpg');
+    background-position: center;
+    background-size: 1920px;
+    background-repeat: repeat-y;
+}
+
+header {
+    background-color: var(--primary-color);
+    border-radius: 0px 0px 30px 30px;
+    color: var(--secondary-shade);
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--secondary-tint);
+    font-size: .75em;
+    height: 40px;
+}
+
+.restaurant-name {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 10vw;
+}
+
+.navbar-nav .nav-link {
+    color: var(--highlight);
+}
+
+.nav-pills {
+    background-color: var(--secondary-tine);
+}
+
+.nav-link {
+    color: var(--primary-color);
+}
+
+.nav-pills .nav-link.active {
+    color: var(--secondary-shade);
+    background-color: var(--secondary-color);
+}
+
+li.nav-item {
+    background-color: var(--secondary-color);
+}
+
+li.nav-item.active {
+    background-color: var(--secondary-tint);
+}
+
+li.nav-item.active > a {
+    color: var(--dark)
+}
+
+/* Home */
+
+#index-carousel {
+    background-color: var(--secondary-color);
+}
+
+/* Menu */
+#menu {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--secondary-shade);
+    font-family: 'PT Serif', serif;
+}
+
+#menu .menu-about{
+    font-style: italic;
+}
+
+#menu .menu-item-description {
+    font-size: 90%;
+}
+
+#menu .menu-item-name {
+    font-weight: bold;
+}
+
+#menu .menu-seasonal-note {
+    font-style: italic;
+    font-size: 75%;
+}
+
+/* Contact */
+#contactForm {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--secondary-shade);
+}
+
+#validatedMessage {
+    display: none;
+}
